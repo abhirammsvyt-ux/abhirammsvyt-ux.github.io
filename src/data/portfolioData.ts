@@ -17,7 +17,7 @@ export const PERSONAL_INFO = {
   linkedin: 'https://linkedin.com/in/abhiram-m-s8848',
   status: 'OPEN FOR AI / ML ROLES',
   web3FormsKey: 'c7dc65ac-9c22-4ad2-bf0a-9e3250dd48ae',
-  avatarImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80',
+  avatarImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80',
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [

@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "predev": "node -e \"const fs=require('fs'); if(!fs.existsSync('public')) fs.mkdirSync('public'); ['image.jpg.jpeg','project2.png','project1.jpg','project.jpeg'].forEach(f => { if(fs.existsSync(f)) fs.copyFileSync(f, 'public/'+f); })\"",
+    "dev": "npm run predev && vite",
+    "prebuild": "npm run predev",
+    "build": "npm run prebuild && tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",

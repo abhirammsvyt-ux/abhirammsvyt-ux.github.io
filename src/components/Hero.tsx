@@ -125,8 +125,8 @@ export const Hero: React.FC = () => {
                   alt={PERSONAL_INFO.name}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                   onError={(e) => {
-                    // Fallback visual if image load fails
-                    e.currentTarget.src = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80';
+                    // Fallback dark visual if image load fails
+                    e.currentTarget.src = 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80';
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>

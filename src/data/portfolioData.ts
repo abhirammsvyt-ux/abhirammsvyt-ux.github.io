@@ -12,12 +12,12 @@ export const PERSONAL_INFO = {
     'Beyond core engineering, I hold a deep interest in history, governance, and technology policy—believing that a well-rounded perspective is key to developing responsible, high-impact AI systems.'
   ],
   location: 'Kerala, India',
-  email: 'abhiramms.vyt@gmail.com',
+  email: 'abhirammsvyt@gmail.com',
   github: 'https://github.com/abhirammsvyt-ux',
   linkedin: 'https://linkedin.com/in/abhiram-m-s8848',
   status: 'OPEN FOR AI / ML ROLES',
   web3FormsKey: 'c7dc65ac-9c22-4ad2-bf0a-9e3250dd48ae',
-  avatarImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80',
+  avatarImage: 'https://i.ibb.co/N2rDBK2r/project2.png',
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [

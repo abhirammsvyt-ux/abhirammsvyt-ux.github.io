@@ -23,3 +23,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Keep local images OUT of GitHub for privacy
+*.png
+*.jpg
+*.jpeg
+*.gif
+public/*.png
+public/*.jpg
+public/*.jpeg

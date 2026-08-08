@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
   bio: 'B.Tech student in Artificial Intelligence and Data Science at Vimal Jyothi Engineering College. Driven by a deep passion for building practical machine learning pipelines, agentic AI frameworks, and data-driven systems that solve real-world problems.',
   detailedBio: [
     'I am an AI & Data Science Engineer in training with hands-on experience in machine learning, deep learning, computer vision, and modern generative AI architectures.',
-    'As Secretary of the IEEE Computer Society Student Chapter and Joint Technical Coordinator of the IEEE Student Branch at Vimal Jyothi Engineering College, I regularly organize technical bootcamps, mentor peers in AI/ML fundamentals, and present tech sessions.',
+    'As Secretary of the IEEE Computational Intelligence Society - Student Chapter and  Technical Coordinator of the IEEE Student Branch at Vimal Jyothi Engineering College, I regularly organize technical bootcamps, mentor peers in AI/ML fundamentals, and present tech sessions.',
     'Beyond core engineering, I hold a deep interest in history, governance, and technology policy—believing that a well-rounded perspective is key to developing responsible, high-impact AI systems.'
   ],
   location: 'Kerala, India',
@@ -204,6 +204,36 @@ export const EXPERIENCES: ExperienceItem[] = [
     ],
     skills: ['Machine Learning', 'Image Classification', 'Regression', 'Data Preprocessing', 'Model Development', 'Python', 'Scikit-learn'],
   },
+    {
+    id: 'devtown-predictive-modeling',
+    role: 'Predictive Modeling Bootcamp Participant',
+    company: 'DevTown × Microsoft Student Chapter - MSIT',
+    location: 'Online',
+    period: 'Internship',
+    type: 'Bootcamp / Project',
+    description: [
+      'Participated in the Predictive Modeling: Forecast Like a Data Pro bootcamp conducted by DevTown in collaboration with Microsoft Student Chapter - MSIT.',
+      'Completed a project focused on predictive modeling and applying machine learning techniques to data-driven forecasting problems.',
+      'Applied data analysis and predictive modeling concepts to build and evaluate machine learning solutions.',
+      'Successfully completed the bootcamp and project as part of the Microsoft Student Chapter - MSIT program.'
+    ],
+    skills: ['Predictive Modeling', 'Machine Learning', 'Data Analysis', 'Forecasting', 'Python'],
+  },
+  {
+    id: 'csrbox-ibm-skillsbuild',
+    role: 'Project-Based Learning Program Participant',
+    company: 'CSRBOX × IBM SkillsBuild',
+    location: 'India',
+    period: 'Internship',
+    type: 'Project-Based Learning Program',
+    description: [
+      'Successfully completed the IBM SkillsBuild Project Based Learning Program conducted by CSRBOX in collaboration with IBM SkillsBuild.',
+      'Worked on the project "Decoding Data: Insights and Impact through Analytics", focusing on applying data analytics concepts to real-world problems.',
+      'Applied data analysis techniques to extract meaningful insights and understand the impact of data-driven decision-making.',
+      'Completed the assigned project and learning activities as part of the IBM SkillsBuild Project Based Learning Program.'
+    ],
+    skills: ['Data Analytics', 'Data Analysis', 'Data Interpretation', 'IBM SkillsBuild', 'Project-Based Learning'],
+},
 ];
 
 export const EDUCATION: EducationItem[] = [
@@ -226,15 +256,15 @@ export const EDUCATION: EducationItem[] = [
 export const ACHIEVEMENTS: AchievementItem[] = [
   {
     title: 'Secretary',
-    organization: 'IEEE Computer Society Student Chapter',
+    organization: 'IEEE Computational Intelligence Society - Student Chapter',
     role: 'Leadership & Management',
     period: 'Executive Tenure',
     description: 'Spearheaded technical events, coding workshops, and computer society chapter activities. Led team initiatives, managed communications, and promoted AI/ML learning culture among students.',
     tag: '[LEADERSHIP]',
   },
   {
-    title: 'Joint Technical Coordinator',
-    organization: 'IEEE Student Branch',
+    title: 'Technical Coordinator',
+    organization: 'IEEE Student Branch -VJEC',
     role: 'Technical Operations',
     period: 'Executive Tenure',
     description: 'Coordinated campus-wide technical events, hackathons, and skill-building bootcamps. Directed event execution, speaker management, and hands-on session arrangements.',

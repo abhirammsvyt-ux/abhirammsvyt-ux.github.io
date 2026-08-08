@@ -76,20 +76,28 @@ export const Contact: React.FC = () => {
             </p>
 
             <div className="space-y-4 border-t-2 border-black pt-6">
-              {/* Direct Email */}
-              <a
-                href={`mailto:${PERSONAL_INFO.email}`}
-                className="group flex items-center justify-between p-4 border border-black/20 bg-neutral-50 hover:bg-black hover:text-white transition-all duration-300"
+              {/* Direct Email with Copy to Clipboard & Gmail Webmail fallback */}
+              <button
+                type="button"
+                onClick={() => {
+                  navigator.clipboard.writeText(PERSONAL_INFO.email);
+                  setStatus({
+                    type: 'success',
+                    message: `EMAIL COPIED TO CLIPBOARD: ${PERSONAL_INFO.email}`,
+                  });
+                  window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${PERSONAL_INFO.email}`, '_blank');
+                }}
+                className="w-full text-left group flex items-center justify-between p-4 border border-black/20 bg-neutral-50 hover:bg-black hover:text-white transition-all duration-300 cursor-pointer"
               >
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-crimson" />
                   <div>
-                    <div className="font-mono text-[10px] uppercase text-neutral-500 group-hover:text-neutral-400">EMAIL DIRECT</div>
+                    <div className="font-mono text-[10px] uppercase text-neutral-500 group-hover:text-neutral-400">EMAIL DIRECT (CLICK TO COPY & OPEN GMAIL)</div>
                     <div className="font-mono text-sm font-bold">{PERSONAL_INFO.email}</div>
                   </div>
                 </div>
                 <ArrowUpRight className="w-4 h-4 text-crimson group-hover:text-white" />
-              </a>
+              </button>
 
               {/* GitHub */}
               <a

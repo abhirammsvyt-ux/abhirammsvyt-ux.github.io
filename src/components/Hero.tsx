@@ -97,13 +97,17 @@ export const Hero: React.FC = () => {
                 <Linkedin className="w-4 h-4" />
                 <span>LINKEDIN</span>
               </a>
-              <a
-                href={`mailto:${PERSONAL_INFO.email}`}
-                className="flex items-center space-x-1 hover:text-crimson transition-colors"
+              <button
+                type="button"
+                onClick={() => {
+                  navigator.clipboard.writeText(PERSONAL_INFO.email);
+                  window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${PERSONAL_INFO.email}`, '_blank');
+                }}
+                className="flex items-center space-x-1 hover:text-crimson transition-colors cursor-pointer"
               >
                 <Mail className="w-4 h-4" />
                 <span>EMAIL</span>
-              </a>
+              </button>
             </div>
           </motion.div>
 

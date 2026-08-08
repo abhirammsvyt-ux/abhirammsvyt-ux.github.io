@@ -17,7 +17,7 @@ export const PERSONAL_INFO = {
   linkedin: 'https://linkedin.com/in/abhiram-m-s8848',
   status: 'OPEN FOR AI / ML ROLES',
   web3FormsKey: 'c7dc65ac-9c22-4ad2-bf0a-9e3250dd48ae',
-  avatarImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80',
+  avatarImage: '/project2.png',
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -109,7 +109,7 @@ export const PROJECTS: Project[] = [
       'Priority classification (High / Medium / Low weightage)',
       'Instant downloadable PDF report generation with visual metrics'
     ],
-    image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=1200&q=80',
+    image: '/project1.jpg',
     githubUrl: 'https://github.com/abhirammsvyt-ux',
     featured: true,
     metrics: 'Automated 100% of paper trend analysis',

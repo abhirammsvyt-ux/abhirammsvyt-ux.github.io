@@ -33,8 +33,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     platform: 'Email',
-    url: 'mailto:abhiramms.vyt@gmail.com',
-    label: 'abhiramms.vyt@gmail.com',
+    url: 'mailto:abhirammsvyt@gmail.com',
+    label: 'abhirammsvyt@gmail.com',
   },
 ];
 

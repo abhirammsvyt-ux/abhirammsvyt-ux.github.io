@@ -39,7 +39,7 @@ export const Contact: React.FC = () => {
     } catch (err) {
       setStatus({
         type: 'error',
-        message: 'NETWORK ERROR. PLEASE EMAIL DIRECTLY TO ABHIRAMMS.VYT@GMAIL.COM',
+        message: 'NETWORK ERROR. PLEASE EMAIL DIRECTLY TO ABHIRAMMSVYT@GMAIL.COM',
       });
     }
   };
